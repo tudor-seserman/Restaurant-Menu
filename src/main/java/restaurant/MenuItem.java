@@ -10,11 +10,7 @@ public class MenuItem {
     private double price;
     private String description;
     private String category;
-
-
-
     private LocalDate dateAdded;
-
     private int id =0;
     private static int classID =0;
 //    private boolean isNew;
@@ -48,14 +44,9 @@ public class MenuItem {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public double getPrice() {
         return price;
     }
-
 
     @Override
     public boolean equals(Object o) {

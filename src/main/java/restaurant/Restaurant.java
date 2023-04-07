@@ -18,6 +18,7 @@ public class Restaurant {
         fries.print();
 
         myMenu.removeMenuItems(fries);
+        myMenu.removeMenuItems(fries);
         myMenu.print();
         myMenu.lastUpdated();
         myMenu.addMenuItems(fries);

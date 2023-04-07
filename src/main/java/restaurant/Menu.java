@@ -40,12 +40,7 @@ public class Menu {
     public String toString() {
         StringBuilder toReturn=new StringBuilder();
         for(int i=0; i<menu.size(); i++){
-            toReturn.append(i+1);
-            toReturn.append(" ");
-            toReturn.append(menu.get(i).getName());
-            toReturn.append(" $");
-            toReturn.append(menu.get(i).getPrice());
-            toReturn.append("0\n");
+            toReturn.append(i+1+" "+menu.get(i).getName()+" $"+menu.get(i).getPrice()+"0\n");
         }
         return toReturn.toString();
     }

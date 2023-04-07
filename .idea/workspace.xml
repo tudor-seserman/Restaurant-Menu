@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d473e972-8903-4b28-a04f-fba436a1ecd5" name="Changes" comment="First part done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant/Restaurant.java" afterDir="false" />
+    <list default="true" id="d473e972-8903-4b28-a04f-fba436a1ecd5" name="Changes" comment="Done with the second part">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/restaurant/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurant/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/restaurant/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurant/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurant/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurant/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,11 +94,19 @@
       <option name="project" value="LOCAL" />
       <updated>1680566183477</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Done with the second part">
+      <created>1680830919546</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680830919546</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First part done" />
-    <option name="LAST_COMMIT_MESSAGE" value="First part done" />
+    <MESSAGE value="Done with the second part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done with the second part" />
   </component>
 </project>
