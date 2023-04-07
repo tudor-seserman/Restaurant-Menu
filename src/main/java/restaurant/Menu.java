@@ -1,39 +1,62 @@
 package restaurant;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
 
 public class Menu {
     private ArrayList<MenuItem>menu;
-    private Date version;
-    private MenuItem mostRecent;
+    private LocalDate version;
+    private static MenuItem mostRecent;
 
-    public ArrayList<MenuItem> getMenu() {
-        return menu;
+
+
+    public Menu() {
+        this.menu = new ArrayList<>();
+        this.version = LocalDate.now();
     }
 
-    public void setMenu(ArrayList<MenuItem> menu) {
-        this.menu = menu;
+    public void addMenuItems(MenuItem item){
+        for(MenuItem itemToTest:menu){
+            if(itemToTest.equals(item)) {
+                System.out.println("Unable to add " + item.getName() + " because it is already there!");
+                return;
+            }}
+                menu.add(item);
+                mostRecent = item;
+                version = LocalDate.now();
+                System.out.println(item.getName()+" added successfully!");
     }
 
-    public Date getVersion() {
+    public void removeMenuItems(MenuItem item){
+        if(menu.contains(item)) {
+            menu.remove(item);
+            System.out.println(item.getName()+" removed successfully!");
+        }else{
+            System.out.println("Cannot remove "+item.getName());
+        }
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder toReturn=new StringBuilder();
+        for(int i=0; i<menu.size(); i++){
+            toReturn.append(i+1);
+            toReturn.append(" ");
+            toReturn.append(menu.get(i).getName());
+            toReturn.append(" $");
+            toReturn.append(menu.get(i).getPrice());
+            toReturn.append("0\n");
+        }
+        return toReturn.toString();
+    }
+
+    public void print(){
+        System.out.println("Check out our new menu item "+mostRecent.getName()+"\n"+this);
+    }
+
+    public LocalDate lastUpdated(){
+        System.out.println(version);
         return version;
-    }
-
-    public void setVersion(Date version) {
-        this.version = version;
-    }
-
-    public MenuItem getMostRecent() {
-        return mostRecent;
-    }
-
-    public void setMostRecent(MenuItem mostRecent) {
-        this.mostRecent = mostRecent;
-    }
-
-    public static void main(String[] args) {
-
     }
 
 }

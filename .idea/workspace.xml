@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d473e972-8903-4b28-a04f-fba436a1ecd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant/MenuItem.java" afterDir="false" />
+    <list default="true" id="d473e972-8903-4b28-a04f-fba436a1ecd5" name="Changes" comment="First part done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurant/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurant/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurant/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurant/MenuItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2e924666-df12-456a-b028-2df5f2a9be0c" />
+        <option name="url" value="https://github.com/tudor-seserman/Restaurant-Menu.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,7 +58,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -79,6 +87,18 @@
       <option name="presentableId" value="Default" />
       <updated>1680552738382</updated>
     </task>
+    <task id="LOCAL-00001" summary="First part done">
+      <created>1680566183477</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680566183477</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First part done" />
+    <option name="LAST_COMMIT_MESSAGE" value="First part done" />
   </component>
 </project>
